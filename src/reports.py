@@ -25,7 +25,6 @@ def save_to_file_decorator(filename: str = "log_file.json"):
             logger.info("Декоратор успешно завершил свою работу.")
             return result
 
-
         return wrapper
 
     return decorator

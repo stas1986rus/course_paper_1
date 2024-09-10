@@ -160,11 +160,11 @@ def fetch_stock_prices(stocks: list) -> dict:
 #     my_list = df_transactions.to_dict(orient="records")
 #     sorting = filter_transactions_by_date(df_transactions)
 
-    # print(get_top_five_transactions(sortirovka))
+# print(get_top_five_transactions(sortirovka))
 
-    # print(fetch_exchange_rates(["USD", "EUR"]))
-    # print(fetch_stock_prices(["AAPL", "AMZN", "GOOGL", "MSFT", "TSLA"]))
-    # fltr = filter_transactions_by_date(my_transactions)
-    # print(process_transactions(my_transactions, date=datetime.now()))
-    # print(filter_transactions_by_card(df_transactions))
-    # print(get_top_five_transactions(fltr))
+# print(fetch_exchange_rates(["USD", "EUR"]))
+# print(fetch_stock_prices(["AAPL", "AMZN", "GOOGL", "MSFT", "TSLA"]))
+# fltr = filter_transactions_by_date(my_transactions)
+# print(process_transactions(my_transactions, date=datetime.now()))
+# print(filter_transactions_by_card(df_transactions))
+# print(get_top_five_transactions(fltr))
