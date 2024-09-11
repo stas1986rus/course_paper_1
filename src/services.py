@@ -1,7 +1,7 @@
 import datetime
 from typing import Any, Dict, List
 
-from src.utils import read_xlsx_file, setting_log
+from src.utils import setting_log
 
 logger = setting_log("services")
 

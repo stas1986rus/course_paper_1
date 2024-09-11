@@ -2,16 +2,8 @@ import json
 
 import pandas as pd
 
-from src.utils import (
-    fetch_exchange_rates,
-    fetch_stock_prices,
-    filter_transactions_by_card,
-    filter_transactions_by_date,
-    get_top_five_transactions,
-    greetings,
-    read_xlsx_file,
-    setting_log,
-)
+from src.utils import (fetch_exchange_rates, fetch_stock_prices, filter_transactions_by_card,
+                       filter_transactions_by_date, get_top_five_transactions, greetings, read_xlsx_file, setting_log)
 
 logger = setting_log("views")
 
